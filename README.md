@@ -5,3 +5,6 @@ We will create a “smart mirror” that functions as a regular reflective mirro
 
 ## Project Approach
 We will create our smart mirror using a 2-way mirror, a LCD monitor, a Raspberry Pi 3, and a webcam. The Raspberry Pi will include the MagicMirror2 software with existing modules for weather, time, alarms, stock, calendar, and to-do list. We will also create our own “1 Second a Day” module.
+
+## Custom Module: MMM-1-Second-A-Day
+See [repository](https://github.com/GaryLChew/MMM-1-Second-A-Day).
