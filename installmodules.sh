@@ -30,8 +30,8 @@ Moddir='modules/'
 Packfile='package.json'
 
 ## All the modules repos from Git.
-Repos[1]='https://github.com/GaryLChew/MMM-1-Second-A-Day'
-Repos[2]='https://github.com/lavolp3/MMM-AVStock'
+Repos[1]='https://github.com/GaryLChew/MMM-1-Second-A-Day.git'
+Repos[2]='https://github.com/eouia/MMM-AVStock.git'
 Repos[3]='https://github.com/eouia/MMM-CalendarExt2.git'
 Repos[5]='https://github.com/GaryLChew/MMM-OnScreenMenu.git'
 Repos[6]='https://github.com/cbrooker/MMM-Todoist.git'

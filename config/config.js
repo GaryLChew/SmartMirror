@@ -49,7 +49,7 @@ var config = {
 			// disabled: true,
 			position: "top_left",
 			config: {
-				apiKey : "",
+				apiKey : "YOUR_ALPHAADVANTAGE_API_KEY",
 				symbols : ["BAESY"],
 				mode: "series"
 			}
@@ -61,7 +61,7 @@ var config = {
 			config: {
 				calendars : [
 					{
-						url: "",
+						url: "https://calendar.google.com/calendar/ical/yourcalendar.ics",
 					},
 				],
 				views: [
@@ -92,12 +92,12 @@ var config = {
 			position: 'top_right',	// This can be any of the regions. Best results in left or right regions.
 			header: 'Todoist', // This is optional
 			config: { // See 'Configuration options' for more information.
-				accessToken: '',
+				accessToken: 'youraccesstoken',
 				maximumEntries: 10,
 				updateInterval: 10 * 60 * 1000, // Update every 10 minutes
 				fade: false,
 				// projects and/or labels is mandatory:
-				projects: []
+				projects: [1234567890]
 			}
 		},
 		// Default modules
