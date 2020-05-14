@@ -42,6 +42,7 @@ var config = {
 			position: 'top_center',
 			header: '1-Second-A-Day',
 			config: {
+				driveDestination: ""
 			}
 		},
 		{
