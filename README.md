@@ -72,7 +72,7 @@ We will create our smart mirror using a 2-way mirror, a LCD monitor, a Raspberry
         2. Ensure that you're logged into the desired google account in the top right of the web page.
         3. In the dropdown under "Configure your OAuth client" select "Desktop app" and the press "Create".
         4. Press "Download Client Configuration" and place file into the folder './modules/MMM-1-Second-A-Day/'
-        5. Run command 'node ./modules/MMM-1-Second-A-Day/upload.js' on command line, and follow steps.
+        5. 'cd ./modules/MMM-1-Second-A-Day/' and run command 'node upload.js' on command line, and follow steps.
         6. Insert compilations into a specified folder. (Optional)
 	        1. On your browser open your Google Drive and go to the folder that you want to insert the compilations into.
 	        2. The link should be of the sort: https://drive.google.com/drive/u/0/folders/YOUR_DRIVE_FOLDER, paste YOUR_DRIVE_FOLDER into the module config.
