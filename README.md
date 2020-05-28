@@ -43,7 +43,8 @@ We will create our smart mirror using a 2-way mirror, a LCD monitor, a Raspberry
 					{
 						url: "https://calendar.google.com/calendar/ical/yourcalendar.ics",
 					},
-				],
+                ],
+        }
         ```
     2. Set up Todoist (optional)
         1. Create a [Todoist Access Token](https://developer.todoist.com/appconsole.html).
@@ -66,6 +67,24 @@ We will create our smart mirror using a 2-way mirror, a LCD monitor, a Raspberry
 			}
 		},
         ```
+    2. Set up Google Drive Integration for 1 Second A Day Module
+        1. Follow this link: https://developers.google.com/drive/api/v3/quickstart/nodejs?
+        2. Ensure that you're logged into the desired google account in the top right of the web page.
+        3. In the dropdown under "Configure your OAuth client" select "Desktop app" and the press "Create".
+        4. Press "Download Client Configuration" and place file into the folder './modules/MMM-1-Second-A-Day/'
+        5. Run command 'node ./modules/MMM-1-Second-A-Day/upload.js' on command line, and follow steps.
+        6. Insert compilations into a specified folder. (Optional)
+	        1. On your browser open your Google Drive and go to the folder that you want to insert the compilations into.
+	        2. The link should be of the sort: https://drive.google.com/drive/u/0/folders/YOUR_DRIVE_FOLDER, paste YOUR_DRIVE_FOLDER into the module config.
+            ```javascript
+		    {
+	            module: 'MMM-1-Second-A-Day',
+	            config:
+	            {
+		            driveDestination: 'YOUR_DRIVE_FOLDER'
+	            }
+		    },
+            ```
 
 ## Custom Module: MMM-1-Second-A-Day
 See [repository](https://github.com/GaryLChew/MMM-1-Second-A-Day).
