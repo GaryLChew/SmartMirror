@@ -68,7 +68,7 @@ We will create our smart mirror using a 2-way mirror, a LCD monitor, a Raspberry
 		},
         ```
     2. Set up Google Drive Integration for 1 Second A Day Module
-        1. Follow this link: https://developers.google.com/drive/api/v3/quickstart/nodejs?
+        1. Follow this link: https://developers.google.com/drive/api/v3/quickstart/nodejs
         2. Ensure that you're logged into the desired google account in the top right of the web page.
         3. In the dropdown under "Configure your OAuth client" select "Desktop app" and the press "Create".
         4. Press "Download Client Configuration" and place file into the folder './modules/MMM-1-Second-A-Day/'
