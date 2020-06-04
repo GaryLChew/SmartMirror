@@ -31,10 +31,12 @@ Packfile='package.json'
 
 ## All the modules repos from Git.
 Repos[1]='https://github.com/GaryLChew/MMM-1-Second-A-Day.git'
-Repos[2]='https://github.com/eouia/MMM-AVStock.git'
-Repos[3]='https://github.com/eouia/MMM-CalendarExt2.git'
-Repos[5]='https://github.com/GaryLChew/MMM-OnScreenMenu.git'
-Repos[6]='https://github.com/cbrooker/MMM-Todoist.git'
+Repos[2]='https://github.com/Kyle-Stadelmann/MMM-Patch-Notes'
+Repos[3]='https://github.com/fewieden/MMM-voice.git'
+Repos[4]='https://github.com/eouia/MMM-AVStock.git'
+Repos[5]='https://github.com/eouia/MMM-CalendarExt2.git'
+Repos[6]='https://github.com/GaryLChew/MMM-OnScreenMenu.git'
+Repos[7]='https://github.com/cbrooker/MMM-Todoist.git'
 
 ## ----------------------------------------------------------------------------
 
