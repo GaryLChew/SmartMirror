@@ -13,7 +13,7 @@ We will create our smart mirror using a 2-way mirror, a LCD monitor, a Raspberry
 1. Run `git clone https://github.com/GaryLChew/SmartMirror.git`
 2. Change directory `cd SmartMirror/`
 4. Run `npm install`. You need to have [NodeJS](https://nodejs.org/en/download/) installed to run this command.
-3. Install modules `sh installmodules.sh`
+3. Install modules `bash installmodules.sh`
 4. Set up API keys
     1. Open `config/config.js`
     2. Set up AVStocks (optional)
