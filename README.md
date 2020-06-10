@@ -4,6 +4,8 @@ by Gary Chew and Kyle Stadelmann
 ## Project Overview
 We will create a “smart mirror” that functions as a regular reflective mirror, but also displays extra information/applications on its surface. Many of these applications, such as weather, time, and google calendar, have already been built and will be incorporated into our project. We will also build a new module, a 1-second-a-day module that builds a collage of videos from 1-second snapshots recorded by the mirror every day.
 
+[Video](https://youtu.be/s00Uf5_ruCY)
+
 ![Picture of overall mirror](https://i.imgur.com/fnMuSDQ.jpg)
 
 ## Project Approach
